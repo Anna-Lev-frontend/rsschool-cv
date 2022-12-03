@@ -13,6 +13,7 @@
 I have a high level of concentration, the ability to competently and clearly express thoughts, set goals and achieve them. I am a hardworking person, I try to always evolve in my professional skills.
 
 ***
+
 ### SKILLS
 
 * Web-development HTML, CSS, Java Script
