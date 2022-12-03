@@ -60,4 +60,3 @@ IT academy
 * B1
 
 ***
-![image](https://user-images.githubusercontent.com/107578046/204399008-5e4d3445-13c9-453b-ae8e-2466a62f3178.png)
