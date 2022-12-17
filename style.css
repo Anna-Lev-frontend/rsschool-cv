@@ -1,3 +1,133 @@
-* {
-    color: red;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+body {
+    background: rgb(12, 32, 10);
+}
+p {
+    font-size: 18px;
+    line-height: 24px;
+}
+h2 {
+    font-size: 22px;
+    line-height: 24px;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    min-height: 100vh;
+    margin: auto;
+}
+main {
+    display: flex;
+    width: 100%;
+    background: rgb(163, 242, 137);
+}
+.header {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+.header__navigation {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.header__navigation-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navigation-item {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    list-style-type: none; 
+    padding: 15 20;
+}
+.navigation-link {
+    text-decoration: none;
+    color:rgb(126, 4, 120);
+}
+.aside-about-me{
+    width: 40%;
+    padding: 20px;
+}
+.section-about-me {
+    width: 60%;
+    padding: 20px;
+}
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.main-about-me {
+    display: flex;
+    justify-content: space-between;
+}
+section {
+    margin-bottom: 20px;
+}
+.section-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 10px 0 10px;
+    padding: 10px 0;
+    font-size: 24px;
+    color: rgb(12, 32, 10);
+    text-decoration: underline;
+}
+.section-link {
+    margin: 15px 0;
+}
+.section-list {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 24px;
+}
+.content-code {
+    display: block;
+    overflow-x: auto;
+    padding: 5px;
+    background: rgb(12, 32, 10);
+    color: white;
+}
+.name {
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+}   
+.my-photo {
+    width:300px;   
+}
+.my-name {
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 85px;
+    text-align: center;
+    flex-grow: 1;
+    color:rgb(126, 4, 120);
+    text-decoration: underline;
+}
+.footer {
+   background: rgb(255, 255, 255);
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+.footer-logo {
+width: 100px;
+}
+.footer-data {
+    text-align: center;
+    font-size: 28px;
+    line-height: 24px;
 }
